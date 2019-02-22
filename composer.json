@@ -1,0 +1,14 @@
+{
+  "name": "drupal/rdm_islandora_orcid",
+  "type": "drupal-module",
+  "description": "Customizes ORCID module for Islandora 8 RDM",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/rdm_islandora_orcid",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/rdm_islandora_orcid",
+    "source": "http://cgit.drupalcode.org/rdm_islandora_orcid"
+  },
+  "require": { }
+}

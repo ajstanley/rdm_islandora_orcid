@@ -1,0 +1,5 @@
+services:
+  rdm_islandora_orcid.route_subscriber:
+    class: Drupal\rdm_islandora_orcid\Routing\RouteSubscriber
+    tags:
+      - { name: event_subscriber }

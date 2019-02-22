@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains rdm_islandora_orcid.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function rdm_islandora_orcid_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the rdm_islandora_orcid module.
+    case 'help.page.rdm_islandora_orcid':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Customizes ORCID module for Islandora 8 RDM') . '</p>';
+      return $output;
+
+    default:
+  }
+}

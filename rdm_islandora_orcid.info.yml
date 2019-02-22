@@ -1,0 +1,7 @@
+name: 'RDM Islandora ORCID customization'
+type: module
+description: 'Customizes ORCID module for Islandora 8 RDM'
+core: 8.x
+package: 'Islandora_RDM'
+dependencies:
+  - orcid
